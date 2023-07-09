@@ -18,6 +18,10 @@
         font-size:15px;
     }
 
+    .personagem-grande{
+        width:430px;
+        height:430px;
+    }
     
     .lista-de-personagens{
         gap:9px;
