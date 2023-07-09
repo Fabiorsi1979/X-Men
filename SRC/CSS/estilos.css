@@ -1,13 +1,11 @@
 
 body::before{
     content:"";
-    background-image:url(../imagens/bg-desktop.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
-    z-index:-1;
-    opacity:0.2;
-}
+    opacity: 0.1;
+    z-index: -1;
 
 body{
     background-color:#000000;
