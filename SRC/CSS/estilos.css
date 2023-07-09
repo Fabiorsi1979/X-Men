@@ -1,3 +1,7 @@
+body{
+    background-color:#000000;
+    color:#ffffff;
+}
 
 body::before{
     content:"";
@@ -6,10 +10,6 @@ body::before{
     background-position:center;
     opacity: 0.1;
     z-index: -1;
-
-body{
-    background-color:#000000;
-    color:#ffffff;
 }
 
 .cabecalho{
@@ -25,7 +25,7 @@ body{
     justify-content:center;
 }
 
-.selecao-de-personagens .lista-de-personagens{
+.selecao-de-personagens .personagens .lista-de-personagens{
     display:flex;
     flex-wrap:wrap;
     gap:30px;
@@ -48,12 +48,12 @@ body{
     text-align:center;
 }
 
-.lista-de-personagens .personagens img{
+.selecao-de-personagens .personagens .lista-de-personagens .personagem {
     width:100%;
     height:100%;
 }
 
-.lista-de-personagens .personagens.selecionado{
+.selecao-de-personagens .personagens .lista-de-personagens .personagem{
     box-shadow:0px 0px 24px 5px #0271f7
 }
 
@@ -67,7 +67,7 @@ body{
     height:430px;
 }
 
-.personagem-selecionado .descricao-personagem{
+.personagem-selecionado .personagem .descricao-personagem{
     font-size:16px;
     line-height:22px;
     text-align:center;
@@ -75,7 +75,7 @@ body{
     width:420px;
 }
 
-.personagem-selecionado .nome-personagem{
+.personagem-selecionado .personagem .nome-personagem{
     border-bottom:2px solid #47f4ff;
     letter-spacing:4px;
     text-transform:uppercase;
