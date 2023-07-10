@@ -1,3 +1,13 @@
 {
-    "editor.accessibilitySupport": "on"
+    "editor.accessibilitySupport": "on",
+    "cSpell.words": [
+        "descricao",
+        "imagem",
+        "imagens",
+        "personagem",
+        "Personagem",
+        "personagens",
+        "selecionado",
+        "Selecionado"
+    ]
 }
